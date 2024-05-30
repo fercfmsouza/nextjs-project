@@ -36,6 +36,6 @@ Check out my project [here](#), and feel free to explore the codebase!
 
 ## Demo
 
-![demo image](/01.png)
-![demo image](/02.png)
-![demo image](/03.png)
+![demo image](public/01.png)
+![demo image](public/02.png)
+![demo image](public/03.png)
