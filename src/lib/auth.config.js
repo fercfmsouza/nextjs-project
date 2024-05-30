@@ -36,7 +36,7 @@ export const authConfig = {
 
       //ONLY AUTHENTICATED USERS CAN RECH THE LOGIN PAGE
       if (isOnLoginPage && user) {
-        return Response.redirect('/');
+        return Response.redirect(new URL('/', request.nextUrl));
       }
 
       return true;
