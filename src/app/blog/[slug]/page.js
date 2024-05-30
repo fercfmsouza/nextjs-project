@@ -6,7 +6,7 @@ import { getPost } from '@/lib/data';
 
 //FETCH DATA WITH AN API
 const getData = async (slug) => {
-  const res = await fetch(`http://127.0.0.1:3000/api/blog/${slug}`);
+  const res = await fetch(`http://localhost:3000/api/blog/${slug}`);
 
   if (!res.ok) {
     throw new Error('Something went wrong!');
