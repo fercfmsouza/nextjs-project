@@ -50,7 +50,7 @@ export const {
     }),
   ],
   callbacks: {
-    async signIn({ user, account, profile }) {
+    async signIn({ account, profile }) {
       //if user is authenticated with github or google account connect to db
       if (account.provider === 'github' || account.provider === 'google') {
         connectToDB();
