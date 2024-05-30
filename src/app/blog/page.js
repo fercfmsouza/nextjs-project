@@ -3,7 +3,7 @@ import styles from './blog.module.css';
 
 //FETCH DATA WITH AN API
 const getData = async () => {
-  const res = await fetch('http://localhost:3000/api/blog');
+  const res = await fetch('http://nextjs-project-snowy-six.vercel.app/api/blog');
 
   if (!res.ok) {
     throw new Error('Something went wrong!');
