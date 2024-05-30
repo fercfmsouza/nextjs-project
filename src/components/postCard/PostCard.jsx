@@ -24,4 +24,4 @@ const PostCard = ({ post }) => {
   );
 };
 
-export { PostCard };
+export default PostCard;
